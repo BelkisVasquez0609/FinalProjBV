@@ -30,7 +30,6 @@ export class IncomeComponent implements OnInit {
         return b.id - a.id;
       });
       this.incomesCopy = [...this.incomes]
-
     })
 
   }
