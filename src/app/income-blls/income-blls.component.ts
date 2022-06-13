@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data/servicios/data.service';
+import { IncomeComponent } from '../income/income.component';
 import { Budget } from '../models/budget';
 
 @Component({
@@ -35,8 +36,6 @@ export class IncomeBllsComponent implements OnInit {
     return this.budget.reduce(
       (previousValue, currentValue) => previousValue + currentValue.monto,
       0);
-
   }
-
 
 }

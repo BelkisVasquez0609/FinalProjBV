@@ -55,6 +55,4 @@ export class IncomeComponent implements OnInit {
       0);
   }
 
-
-
 }

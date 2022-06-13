@@ -39,9 +39,8 @@
         <td></td>
         <td></td>
           <td class="fw-bold" [ngClass]="{'red':title === 'Lista de Gastos', 'green': title === 'Lista de Ingresos'}">{{titleTot}} </td>
-          <td class="text-center" [ngClass]="{'red':title === 'Lista de Gastos', 'green': title === 'Lista de Ingresos'}" style="margin-left: 200px;">{{montoTot | currency:"RD$, DOP "}}</td>
-         
-      
+          <!--Filtros-->
+          <td class="text-center" [ngClass]="{'red':title === 'Lista de Gastos', 'green': title === 'Lista de Ingresos'}" style="margin-left: 200px;">{{montoTot | currency:"RD$, DOP "}}</td>  
       </tr>
     </tfoot>
 
