@@ -3,7 +3,7 @@
 ## How to use?
 
 Front-End
- - ng serve -0
+ - ng serve -o
  
  Backend
  
