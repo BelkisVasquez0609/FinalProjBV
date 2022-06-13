@@ -1,5 +1,15 @@
 # ExpensesAndIncome
 
+## How to use?
+
+Front-End
+ - ng serve -0
+ 
+ Backend
+ 
+ - npm run backend
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
 
 ## Development server
